@@ -1,0 +1,417 @@
+ html, body{
+    width: 100%;
+    height: 100%;
+    font-family: "Open Sans Condensed",sans-serif;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+.header{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1900;
+    border-bottom: 1px solid #ddd;
+    box-shadow: 0 1px 12px 0 rgba(0, 0, 0, 0.15);
+    font-family: "Open Sans Condensed",sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.top-info{
+    background: none repeat scroll 0 0 #b1b1b1;
+    height: 40px;
+}
+.blockquote:before {
+    color: #15a28e;
+    content: "{";
+    display: block;
+    float: left;
+    font-family: inherit;
+    font-size: 24px;
+    font-weight: 700;
+    left: 0;
+    margin-right: 6px;
+    position: absolute;
+    top: 5px;
+    width: 15px;
+}
+.blockquote:after {
+    bottom: 10px;
+    color: #15a28e;
+    content: "}";
+    display: block;
+    float: right;
+    font-size: 24px;
+    font-weight: 700;
+    margin-left: 6px;
+    position: absolute;
+    right: 0;
+    width: 15px;
+}
+.blockquote{
+    font-weight: 700;
+    line-height: 18px;
+    padding: 8px 18px;
+    position: relative;
+}
+.text-warning{
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+.text-dark{
+    font-size: 12px;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+
+.navbar{
+    background-color: #fff !important;
+}
+.navbar li a {
+    color: #555 !important;
+    font-size: 16px;
+    margin: 0px 5px;
+    font-family: "Open Sans Condensed",sans-serif;
+}
+.navbar-nav li a.active{
+    color: #15a28e !important;
+}
+.navbar li a:hover{
+    color: #15a28e !important;
+}
+/* a:before {
+    color: transparent;
+    content: "•";
+    font-size: 1.2em;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: transparent 0px 0px;
+    top: 18px;
+    transform: translateX(-50%);
+    transition: text-shadow 0.3s ease 0s, color 0.3s ease 0s;
+} */
+.navbar-nav li{
+    position: relative;
+}
+.navbar-nav li a:before{
+    color: transparent;
+    content: "•";
+    font-size: 1.2em;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    text-shadow: transparent 0px 0px;
+    top: 18px;
+    transform: translateX(-50%);
+    transition: text-shadow 0.3s ease 0s, color 0.3s ease 0s;
+}
+.dropdown-menu a{
+    color: #222;
+    font-size: 15px;
+    padding: 5px 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.dropdown-menu a:hover{
+    color: #15a28e;
+}
+.carousel{
+    margin-top: 8rem !important;
+}
+.carousel-indicators li{
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #fff;
+    border-radius: 10px;
+    height: 10px;
+    margin: 3px;
+    width: 10px;
+}
+.page-header{
+    font-family: "Open Sans Condensed",sans-serif;
+    font-weight: 700;
+    color: #222;
+    font-size: 30px;
+}
+.welcome hr {
+    border-top: 3px solid #15a28e;
+    width: 5%;
+    margin-bottom: 2rem;
+}
+.page-body{
+    line-height: 2;
+    word-spacing: -1px;
+    font-size: 17px;
+    text-align: center;
+    color: rgb(51, 51, 51);
+}
+.text-header{
+    color: #555;
+    font-size: 16px;
+    padding: 20px 0px 5px;
+    font-weight: 700;
+}
+.text-title{
+    word-spacing: 3px;
+    text-align: justify;
+    font-size: 15px;
+}
+.interview-ceo{
+    background-image: url("../images/Japan_Vietnam_Locator.jpg");
+}
+.white-back{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.7);
+}
+.thuyet-trinh{
+    font-size: 16px;
+    font-weight: 700;
+}
+.interview-ceo li{
+    font-size: 15px;
+    font-weight: 300;
+    padding: 15px 0;
+}
+.text-chuthich{
+    font-weight: 300;
+    font-size: 17px;
+    text-align: center;
+}
+.cong-viec{
+    background: url("../images/IMG_9016-resize.jpg") repeat-x fixed right center / cover rgba(0, 0, 0, 0);
+
+}
+.gray-back {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.4);
+}
+.text-body{
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 37px;
+    margin-bottom: 70px;
+}
+.text-td{
+    font-family: 'Roboto', sans-serif;
+    color: #222;
+    line-height: normal;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.text-infomation{
+    font-family: "Open Sans Condensed",sans-serif;
+    color: #222;
+    line-height: normal;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.text-content{
+    font-size: 14px;
+    padding: 15px 0px;
+}
+.text-infomation-left{
+    margin:30px 0 0 131px;
+}
+.text-infomation-right{
+    margin-left: 5px;
+}
+.list-infomation li{
+    font-size: 14px;
+    padding: 5px;
+}
+
+.khung{
+    text-align: center;
+
+}
+.khach-hang{
+    background-color: #f4f4f4;
+}
+.logo{
+    background-color: white;
+    margin: 15px 5px 5px 10px;
+
+} 
+ .logo img{
+    height: 95px;
+    width: 152px;
+    padding: 5px 20px;
+}
+.member-key img{
+    width: 245px;
+}
+.text-name{
+    font-size: 21px;
+    font-weight: 700;
+    padding: 15px;
+}
+.text-position{
+    margin-top: -11px;
+}
+.button{
+    font-size: 14px;
+    background-color: #15a28e;
+    border: 1px solid black;
+    width: 162px;
+    height: 130%;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.tin-tuc{  
+    background-color: #fcf7e7;
+    font-family: "Open Sans Condensed",sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.text-note{
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.headline{
+    border-bottom: 1px dotted #e4e9f0;
+    margin-top: 70px;
+}
+.headline h4 {
+    border-bottom: 2px solid #15a28e;
+    display: inline-block;
+    margin: 0 0 -2px;
+    padding-right: 10px;
+    text-shadow: 0 0 1px #f6f6f6;
+}
+.tin-tuc .headline {
+    margin-bottom: 24px;
+}
+.tin-tuc img{
+    height: 140px;
+    width: 100%;
+}
+.tin-tuc .date-event {
+    background: none repeat scroll 0 0 #15a28e;
+    border-color: #3b3b3b;
+    color: #fff;
+    display: block;
+    font-size: 12px;
+    height: 26px;
+    line-height: 26px;
+    outline-color: #626262;
+    overflow: hidden;
+    padding: 0 6px;
+    width: 80px;
+}
+ul.list-event {
+    list-style: outside none none;
+    margin-left: 0;
+    padding-left: 0;
+}
+.headding-event{
+    font-size: 15px;
+    color: black;
+    padding-left: 10px;
+}
+.title{
+    font-family: "Open Sans Condensed",sans-serif;
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    left: 0;
+    line-height: 40px;
+    padding: 0 12px;
+    position: absolute;
+    color: #f4f4f4;
+    margin: 0px 0px 15px 15px;
+    font-size: 15px;
+
+}
+.text-button{
+    font-size: 13px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #15a28e;
+    color: white;
+    border: 1px solid black;
+    width: 95px;
+    height: 130%;
+}
+.tuyen-dung {
+    background: url("../images/IMG_2192_resize.jpg") no-repeat fixed right top rgba(0, 0, 0, 0);
+    font-family: "Open Sans Condensed",sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.overlay{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8) !important;
+}
+.title-text{
+    background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8);
+    padding: 12px 0;
+    color: black;
+    font-size: 15px;
+}
+.headline-ll{
+    border-bottom: 1px dotted #e4e9f0;
+    margin-top: 71px;
+    text-transform: uppercase;
+}
+.headline-ll h4 {
+    border-bottom: 2px solid #15a28e;
+    display: inline-block;
+    margin: 0 0 -2px;
+    padding-right: 10px;
+    text-shadow: 0 0 1px #f6f6f6;
+    font-size: 18px;
+}
+.text-namecty{
+    font-size: 18px;
+    color: #fcb303;
+}
+.text-namevt{
+    font-size: 15px;
+}
+.text-logo{
+    margin-left: 102px;
+}
+.diachi{
+    font-size: 13px;
+    color: #333;
+}
+blockquote {
+    border-left: 5px solid #eee;
+    font-size: 13.5px;
+    margin: 0 0 20px;
+    padding: 10px 20px;
+    color: #333;
+}
+.form-group{
+    font-size: 14px;
+    color: #333;
+}
+.note-luuy{
+    font-size: 12px;
+    color: #333;
+}
+.lich a{
+    color: #333;
+    text-decoration: none;
+}
+.lich a:hover{
+    color: #15a28e;
+}
+.form-control {
+    border-radius: 0;
+    color: #555;
+    font-size: 14px;
+    line-height: 1.42857;
+}
+
+footer{
+    background-color: #15a28e;
+    height: 70px;
+}
+.text-abc{
+    padding: 15px 0;
+}
+@media (min-width: 992px){
+    
+}
+@media(min-width: 768px){
+    .navbar-example2{
+        justify-content: center;
+    }
+}
+@media(min-width: 567px){
+    .navbar-example2{
+        justify-content: center;
+    }
+}
